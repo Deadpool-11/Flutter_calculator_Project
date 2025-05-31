@@ -1,16 +1,25 @@
-# calculator
+# Mobile Calculator
+## Basic Overview
+It is a basic calculator designed for basically Android. It can perform basic tasks listed below:
+1. Addition
+2. Substraction
+3. Multiplication
+4. Division
+5. Exponential calculations
+6. Logarithmic Calculations
+7. Trignometric Calculations
 
-A new Flutter project.
+I is made using the framework by flutter. And verified its functioning on android simulator.
 
-## Getting Started
+## List of Technologies and frameworks used
+This uses multiple technologies:
+1. Programming Language: Dart
+2. Framework: Flutter
+3. Widgets and components: MaterialApp, Scaffold, Container, Column, Row, Text, ElevatedButtons, wrap, padding, sizedBox etc
+4. Libraries: math_expressions/math_expressions.dart, flutter/material.dart
+5. Target and Devloper Device: Android (iOS simulator wasnt running!) and macOS respectively
+6. IDE: VS code
+7. simulator: from Xcode and android Studio
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
