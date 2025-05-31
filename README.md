@@ -21,5 +21,17 @@ This uses multiple technologies:
 6. IDE: VS code
 7. simulator: from Xcode and android Studio
 
-## Setup Instructions
+## Setup Instruction
+I'll be writing instruction assuming the developer system is mac:
+* __Install Xcode__:It is a pre-requisite for Flutter setup on your mac. You can follow https://developer.apple.com/xcode/ 
+* __Install Cocoapods__:Again pre-requisite for Flutter setup. You can follow https://guides.cocoapods.org/using/getting-started.html
+* __Install a IDE__:You'll need it for editing codes in convinience. Preferably, VScode from https://code.visualstudio.com
+* __Install Android Stodio__: Basically, you will need it for android simulator on VS Code. Download it from https://developer.android.com/studio
+* __Install Flutter SDK__: You have 2 methods for this-  
+  * manually through Terminal
+  * Directly through VS Code
+     you can follow https://docs.flutter.dev/get-started/install/macos
+* clone the git repo, which you will simulate.
+* connect a physical phone or simulate android, so that the device is visible in bottom right section of the VS code.
+* click F5 while being on main.dart file inside lib. And it should start a new window in phone simulating the coded app.
 
