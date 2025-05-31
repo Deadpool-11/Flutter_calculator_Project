@@ -55,7 +55,18 @@ class _CalculatorHomeState extends State<CalculatorHome> {
           if (value == '√') {
             value = 'sqrt(';
           }
-
+          else if(value=='sin'){
+            value='sin(';
+          }
+          else if(value=='cos'){
+            value='cos(';
+          }
+          else if(value=='tan'){
+            value='tan(';
+          }
+          else if(value=='log'){
+            value='ln(';
+          }
           if (L.contains(value)) {
             lastNum += value;
           } else {
@@ -63,8 +74,10 @@ class _CalculatorHomeState extends State<CalculatorHome> {
           }
 
           if (value != '⌫') {
-            down += value;
+            if(down!='Error')down += value;
+            else down=value;
           }
+          
         }
       }
     });
