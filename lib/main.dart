@@ -120,7 +120,7 @@ class _CalculatorHomeState extends State<CalculatorHome> {
     );
   }
 
-  Widget buildButton(String label, {Color color = Colors.white, double width = 67, double height = 68, bool bold = false}) {
+  Widget buildButton(String label, {Color color = Colors.white,Color color2=const Color.fromARGB(255, 74, 74, 74) ,double width = 67, double height = 68, bool bold = false}) {
     return Padding(
       padding: const EdgeInsets.all(7.5),
       child: SizedBox(
@@ -130,7 +130,7 @@ class _CalculatorHomeState extends State<CalculatorHome> {
           onPressed: () => buttonPressed(label),
           style: ElevatedButton.styleFrom(
             padding: EdgeInsets.all(22),
-            backgroundColor: const Color.fromARGB(255, 74, 74, 74),
+            backgroundColor: color2,
             foregroundColor: color,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(27)),
           ),
@@ -189,23 +189,23 @@ class _CalculatorHomeState extends State<CalculatorHome> {
                     buildButton('1'),
                     buildButton('2'),
                     buildButton('3'),
-                    buildButton('⌫', color: Colors.redAccent, bold: true),
-                    buildButton('×', color: Colors.lightBlueAccent),
+                    buildButton('⌫', color: const Color.fromARGB(255, 82, 255, 238), bold: true,color2: const Color.fromARGB(31, 82, 255, 238)),
+                    buildButton('C', color: const Color.fromARGB(255, 82, 255, 238), color2: const Color.fromARGB(31, 82, 255, 238)),
                     buildButton('4'),
                     buildButton('5'),
                     buildButton('6'),
-                    buildButton('÷', color: Colors.lightBlueAccent),
-                    buildButton('-', color: Colors.lightBlueAccent),
+                    buildButton('÷', color: const Color.fromARGB(255, 82, 255, 238), color2: const Color.fromARGB(31, 82, 255, 238)),
+                    buildButton('-', color: const Color.fromARGB(255, 82, 255, 238), color2: const Color.fromARGB(31, 82, 255, 238)),
                     buildButton('7'),
                     buildButton('8'),
                     buildButton('9'),
-                    buildButton('+', color: Colors.lightBlueAccent),
-                    buildButton('C', color: Colors.redAccent),
-                    buildButton('=', color: Colors.greenAccent),
-                    buildButton('0'),
+                    buildButton('+', color: const Color.fromARGB(255, 82, 255, 238), color2: const Color.fromARGB(31, 82, 255, 238)),
+                    buildButton('×', color: const Color.fromARGB(255, 82, 255, 238), color2: const Color.fromARGB(31, 82, 255, 238)),
                     buildButton('.'),
+                    buildButton('0'),
                     buildButton('('),
                     buildButton(')'),
+                    buildButton('=', color: const Color.fromARGB(255, 0, 0, 0),color2: const Color.fromARGB(255, 82, 255, 238)),
                     buildButton('√'),
                     buildButton('^'),
                     buildButton('e'),
