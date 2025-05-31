@@ -39,6 +39,7 @@ I'll be writing instruction assuming the developer system is mac:
      you can follow https://docs.flutter.dev/get-started/install/macos
 * clone the git repo, which you will simulate.
 * connect a physical phone or simulate android, so that the device is visible in bottom right section of the VS code.
+* command to the terminal "flutter pub get" to install all the dependencies before running the app.
 * click F5 while being on main.dart file inside lib. And it should start a new window in phone simulating the coded app.
 
 ## Features implemented
