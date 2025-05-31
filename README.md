@@ -15,6 +15,8 @@ __Preview:__
 
 I is made using the framework by flutter. And verified its functioning on android simulator.
 
+Also note that you have to swipe to lowest to get option for getting history.
+
 ## List of Technologies and frameworks used
 This uses multiple technologies:
 1. Programming Language: Dart
